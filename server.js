@@ -1,7 +1,7 @@
 const s = require("express");
 const hbs = require("hbs");
 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 var app = s();
 
 app.set("view engine", "hbs");
